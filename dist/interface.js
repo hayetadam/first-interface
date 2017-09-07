@@ -17,5 +17,5 @@ var Person = /** @class */ (function () {
 }());
 var n = new Ninja();
 var p = new Person();
-var f = p;
+var f = n;
 //# sourceMappingURL=interface.js.map

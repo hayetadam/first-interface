@@ -1,7 +1,7 @@
 interface Fighter{
     attack(f :Fighter);
     defend(f :Fighter);
-    treat (f : Fighter);
+    heal (f : Fighter);
 }
 
 class Ninja {
@@ -14,8 +14,8 @@ class Ninja {
 class Person {
     eat() {}
     move() {}
-
+    
 }
 let n = new Ninja();
 let p = new Person();
-let f: Fighter = p;
+let f: Fighter = n;
